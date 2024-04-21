@@ -19,7 +19,7 @@ def showimage():
 
     img=Image.open(filename)
     img=ImageTk.PhotoImage(img)
-    label.configure(image=img,width=840,height=680)
+    label.configure(image=img,width=820,height=610)
     label.image=img
 
 def Findcolor():
